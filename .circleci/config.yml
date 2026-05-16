@@ -6,16 +6,9 @@ jobs:
       - image: cimg/node:18.0
     steps:
       - checkout
-      - restore_cache:
-          keys:
-            - v1-deps-{{ checksum "package.json" }}
       - run:
           name: Install dependencies
-          command: npm install
-      - save_cache:
-          paths:
-            - node_modules
-          key: v1-deps-{{ checksum "package.json" }}
+          command: npm ci
       - run:
           name: Run tests
           command: npm test
