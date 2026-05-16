@@ -1,0 +1,28 @@
+{
+  "name": "cicd-pipeline-project",
+  "version": "1.0.0",
+  "description": "This is a demo project i am making for self assessment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syedsami957-collab/cicd-pipeline-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/syedsami957-collab/cicd-pipeline-project/issues"
+  },
+  "homepage": "https://github.com/syedsami957-collab/cicd-pipeline-project#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  }
+}
